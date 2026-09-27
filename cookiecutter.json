@@ -1,0 +1,24 @@
+{
+  "company_name": "Empresa",
+  "project_name": "RPA",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "automation_name": "[{{ cookiecutter.company_name }}] {{ cookiecutter.project_name }}",
+  "email_subject": "[{{ cookiecutter.company_name }}] {{ cookiecutter.project_name }}",
+  "to_email": "dev@empresa.com",
+  "to_email_test": "dev@empresa.com",
+  "is_test": "1",
+  "_copy_without_render": [
+    "bot.py",
+    "build.bat",
+    "build.ps1",
+    "requirements.txt",
+    "config/config.py",
+    "config/paths.py",
+    "config/__init__.py",
+    "core/*",
+    "core/*/*",
+    "core/*/*/*",
+    "core/*/*/*/*",
+    "*.png"
+  ]
+}

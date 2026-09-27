@@ -1,0 +1,13 @@
+colorama
+openpyxl
+pandas
+psycopg2-binary
+pyautogui
+pymysql
+python-dotenv
+pytesseract
+pyvizion
+pyxlsb
+selenium
+sqlalchemy
+xlrd
